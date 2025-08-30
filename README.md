@@ -122,3 +122,25 @@ In a Use Case Diagram:
 The following diagram shows the interactions between actors (users, hosts, admin, and external systems) and the booking system:
 
 ![Booking System Use Case Diagram](./alx-booking-uc.png)
+
+
+## Acceptance Criteria
+
+**Acceptance Criteria** define the conditions that a software feature must meet to be considered complete and acceptable by the stakeholders. They act as a bridge between requirements and testing, ensuring that the development team and users have a shared understanding of what "done" looks like.
+
+### Importance in Requirement Analysis
+- **Clarifies Expectations:** Helps the team understand exactly what the feature should achieve.  
+- **Guides Development:** Provides clear goals for developers to implement.  
+- **Supports Testing:** Forms the basis for test cases and quality assurance.  
+- **Prevents Miscommunication:** Reduces ambiguity between stakeholders and developers.  
+
+### Example: Checkout Feature in the Booking System
+For the **Checkout** feature in the Airbnb clone, the acceptance criteria might include:
+
+- Users must be able to select a payment method and enter payment details securely.  
+- The system should validate all required fields before processing the payment.  
+- A successful payment should generate a booking confirmation and update the property availability.  
+- Users should receive a confirmation email after the booking is completed.  
+- The checkout process must complete within 5 seconds under normal network conditions.  
+
+These criteria ensure that the checkout feature works as intended and meets both user needs and system requirements.
