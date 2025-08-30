@@ -100,3 +100,25 @@ These requirements define how well the system performs its functions in real-wor
 ---
 
 By clearly distinguishing these two requirement types, your team gets a clear blueprint of both *what* to build and *how well* it must work. This clarity leads to better planning, design, and ultimately, a more reliable and user-friendly application.
+
+## Use Case Diagrams
+
+**Use Case Diagrams** are a type of visual representation used in software engineering to capture the interactions between users (actors) and a system. They illustrate what the system should do from the user’s perspective, rather than how it is implemented.
+
+In a Use Case Diagram:
+- **Actors** represent the users or external systems that interact with the application (e.g., Guest, Host, Admin).
+- **Use Cases** represent the goals or functions the actors want to achieve (e.g., Book Property, Manage Listing, Make Payment).
+- **System Boundary** defines the scope of the system being modeled.
+
+### Benefits of Use Case Diagrams
+- **Clarity of Requirements**: They make it easier to understand what features the system should provide and how users interact with it.  
+- **Improved Communication**: Serve as a common language between stakeholders, designers, and developers.  
+- **Scope Definition**: Clearly shows the boundaries of the system and what lies outside it.  
+- **Prioritization**: Helps in identifying which use cases are most critical for users and should be implemented first.  
+- **Validation**: Ensures that all user needs are captured and accounted for during the design process.  
+
+## Use Case Diagram
+
+The following diagram shows the interactions between actors (users, hosts, admin, and external systems) and the booking system:
+
+![Booking System Use Case Diagram](./alx-booking-uc.png)
